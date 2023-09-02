@@ -1,0 +1,44 @@
+.form{
+    display: flex;
+    background-color:aqua;
+    justify-content: center;
+    padding: 40px;
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 10px;
+   
+
+}
+.container{
+    background-color: aqua;
+    padding: 40px;
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 10px;
+    
+   
+    
+    
+}
+.Rg{
+    border: 3px solid red;
+    border-radius: 2px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    
+
+
+}
+#pera{
+    color: red;
+}
+.from2{
+    justify-content: center;
+    width: 50%;
+}
+.button{
+    padding: 5px;
+    border-radius: 2px;
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}

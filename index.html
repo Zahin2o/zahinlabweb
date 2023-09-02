@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   
+    <div class="form">
+       
+        <form action="">
+            <fieldset>
+                <legend>Main form</legend>
+                <label for="username"> Username</label>
+            <input type="text" name="username" id="username">
+            <br><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <br><br>
+            <input class="button" type="submit" value="log in">
+        </fieldset>
+        
+        </form>
+    
+    </div>
+ <section class="container">
+    <div>
+        <form  class="form2" autocomplete="on" onsubmit="valid()">
+            <fieldset>
+                <legend class="Rg">REGISTATION FORM</legend>
+                <label for="name">NAME</label>
+                <input type="text" name="name" id="name" placeholder="enter your name" autofocus>
+                <br><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="enter your email">
+                <br><br>
+                <label for="mobile">Contact number</label>
+                <input type="text" name="mobile" id="mobile" placeholder="enter your number">
+                <br><br>
+                <label for="Gender" >Gender</label>
+                <input type="radio" name="gender" id="genderm" value="male">
+                <label for="genderm">male</label>
+                <input type="radio" name="gender" id="genderf" value="female">
+                <label for="genderm">female</label>
+                <br><br>
+                <label for="dob">Birth date</label>
+                <input type="date" name="dob" id="dob">
+                <br><br>
+
+                <label for="pl">programming language</label>
+                <input type="checkbox" name="pl" id="plc" value="C">
+                <label for="plC">C</label>
+                <input type="checkbox" name="pl" id="pljava" value="Java">
+                <label for="pljava">java</label>
+                <input type="checkbox" name="pl" id="plpython" value="PHP">
+                <label for="plPHP">PHP</label>
+                <br><br>
+                <label for="district">District</label>
+                <select name="district" id="district">
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Chittagong">Chittagong</option>
+                    <option value="sylet">sylet</option>
+                    <option value="Rajshahi">Rajshahi</option>
+                    <option value="Rongpur" selected>Rangpur</option>
+                    <option value="Barishal">Barishal</option>
+                    <option value="khulna">khulna</option>
+                    <option value="mymanshing">mymansing</option>
+                </select>
+                
+              <br><br>
+              <label for="age">Age</label>
+              <input type="number" name="age" id="age" min="18" max="50">
+              <br><br>
+              
+              <label for="cc">country code</label>
+              <input type="text" name="cc" id="cc" pattern="[A-Z]{3}">
+              <br><br>
+              <label for="password">password</label>
+              <input type="password" name="password" id="pass">
+              <br><br>
+              <label for="password">Re password</label>
+              
+              <input type="password" name=" rp-pass" id="rp">
+              <br>
+              <span id="pera"></span>
+              <br>
+              <input type="submit" value="Register">
+              <br><br>
+            </fieldset>
+        </form>
+    </div>
+</section>
+   
+
+
+    <script src="script.js"></script>
+</body>
+</html>
